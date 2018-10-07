@@ -1,0 +1,6 @@
+#! /bin/bash -e
+
+docker-compose build dev
+
+docker-compose run --rm dev sh -c "shards build --development"
+docker-compose run --rm dev "${@-bash}"

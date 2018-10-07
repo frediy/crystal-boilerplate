@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+if [ ! -f bin/watch ]; then
+  crystal build src/watch.cr -o bin/watch
+fi
+./bin/watch

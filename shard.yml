@@ -1,0 +1,21 @@
+name: boilerplate
+version: 0.1.0
+
+authors:
+  - Full Name <my@email.com>
+
+description: |
+  A description of the project
+
+# dependencies:
+#   shard-name:
+#     github: author/shard-name
+
+development_dependencies:
+  watcher:
+    github: faustinoaq/watcher
+  # shard-name:
+  #   github: author/shard-name
+
+
+license: MIT
